@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nelson gets the weather</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/app.js" defer></script>
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p class='description'><i>Want to know what you're missing on outside? Check below!</i></p>
+
+        <div class="input">
+            <div class="input-container">
+                <input type="email" class="input-field" placeholder="Send me location" />
+                <div class="input-field-shadow"></div>
+            </div>
+            <div class="submit-container">
+                <input type="submit" class="submit-btn" value="Check"/>
+                <div class="submit-btn-shadow"></div>
+	        </div>
+        </div>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+        
+    </div>
+   
+   {{>footer}} 
+</body>
+</html>

@@ -6,7 +6,7 @@ const forecast = (x, y, callback) => {
 
     request({ url: url, json: true }, (error, { body } = {}) => {
 
-
+        console.log(body)
 
         if(error) {
             callback("check if u connected to the web", undefined)

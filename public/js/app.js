@@ -1,6 +1,3 @@
-console.log("This javascript code is loading")
-
-
 // asynchronous i/o
 const input = document.querySelector('.input-field');
 
